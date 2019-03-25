@@ -13,7 +13,7 @@ class App extends Component {
         </header>
         <main>
             <Route  exact path="/" component={AddUser} />
-            <Route path="/home" component={AddDynamicEntry} />
+            {/* <Route path="/home" component={AddDynamicEntry} /> */}
         </main>
       </div>
     );
