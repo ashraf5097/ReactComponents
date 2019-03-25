@@ -1,5 +1,5 @@
 import React from 'react';
-const HotelDisplayBox = ({onClick, hotel}) => {
+const DisplayBox = ({onClick, hotel}) => {
 
     return (
         <div className='box' onClick={onClick}>
@@ -10,4 +10,4 @@ const HotelDisplayBox = ({onClick, hotel}) => {
     );
 }
 
-export default HotelDisplayBox;
+export default DisplayBox;

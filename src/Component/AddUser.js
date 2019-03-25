@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import TextBox from './TextBox';
 import Button from './Button';
-import HotelDisplayBox from './HotelDisplayBox';
+import DisplayBox from './DisplayBox';
 
 class AddRestaurant extends Component {
     constructor (props) {
@@ -92,7 +92,7 @@ class AddRestaurant extends Component {
     hotelDisplay (hotelData, index) {
         return (
             <div>
-                <HotelDisplayBox
+                <DisplayBox
                     hotel={hotelData}
                     index={index}
                     onClick={()=>this.hotelClicked(index, hotelData.id)}
